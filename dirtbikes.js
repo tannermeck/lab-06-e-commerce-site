@@ -1,51 +1,51 @@
 //create an array
 const ktm = {
     id: 'ktm',
-    name: 'ktm',
+    name: 'Ktm',
     image: 'ktm.jpeg',
     description:'2021 ktm 450sxf',
     category: 'first-place',
-    price: 105000
+    price: '10,5000'
 
 };
 
 const yamaha = {
     id: 'yamaha',
-    name: 'yamaha',
+    name: 'Yamaha',
     image: 'yamaha.jpeg',
     description: '2021 yz 450f',
     category: 'second-place',
-    price: 9999
+    price: '9,999'
 
 };
 
 const honda = {
     id: 'honda',
-    name: 'honda',
+    name: 'Honda',
     image: 'honda.jpeg',
     description: '2021 crf450r',
     category: 'third-place',
-    price: 9999
+    price: '9,999'
 
 };
 
 const suzuki = {
     id: 'suzuki',
-    name: 'suzuki',
+    name: 'Suzuki',
     image: 'suzuki.jpeg',
     description: '2021 rm 450f',
     category: 'fourth-place',
-    price: 9600
+    price: '9,600'
 
 };
 
 const kawasaki = {
     id: 'kawasaki',
-    name: 'kawasaki',
+    name: 'Kawasaki',
     image: 'kawasaki.jpeg',
     description: '2021 kx 450f',
     category: 'fifth-place',
-    price: 9600
+    price: '9,600'
 
 };
 export const dirtbikes = [

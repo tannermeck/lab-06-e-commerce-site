@@ -7,15 +7,19 @@ export function renderBikes(bike) {
     bikeImg.src = `./assets/${bike.name}.jpeg`;
     bikeImg.alt = bike.name;
 
-    const bikeSpan = document.createElement('span');
-    bikeSpan.textContent = bike.price;
+    const bikeSpan1 = document.createElement('span');
+    bikeSpan1.textContent = bike.description;
+
+    const bikeSpan2 = document.createElement('span');
+    bikeSpan2.textContent = '$' + bike.price;
 
     const button = document.createElement('button');
     button.textContent = 'Buy now';
 
     bikeLi.appendChild(bikeh3);
     bikeLi.appendChild(bikeImg);
-    bikeLi.appendChild(bikeSpan);
+    bikeLi.appendChild(bikeSpan1);
+    bikeLi.appendChild(bikeSpan2);
     bikeLi.appendChild(button);
     
     return bikeLi
