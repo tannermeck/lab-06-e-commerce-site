@@ -13,7 +13,7 @@ const yamaha = {
     id: 'yamaha',
     name: 'yamaha',
     image: 'yamaha.jpeg',
-    description: '2021 yamaha 450f',
+    description: '2021 yz 450f',
     category: 'second-place',
     price: 9999
 
@@ -23,7 +23,7 @@ const honda = {
     id: 'honda',
     name: 'honda',
     image: 'honda.jpeg',
-    description: '2021 honda crf450r',
+    description: '2021 crf450r',
     category: 'third-place',
     price: 9999
 
@@ -33,7 +33,7 @@ const suzuki = {
     id: 'suzuki',
     name: 'suzuki',
     image: 'suzuki.jpeg',
-    description: '2021 susuki 450f',
+    description: '2021 rm 450f',
     category: 'fourth-place',
     price: 9600
 
@@ -55,4 +55,5 @@ export const dirtbikes = [
     suzuki,
     kawasaki
 ]
+export default dirtbikes
 
