@@ -1,0 +1,8 @@
+#bike-ul li img {
+    height: 300px;
+    width: 400px;
+}
+#bike-ul {
+    display:flex;
+    flex-wrap:wrap;
+}
