@@ -1,5 +1,5 @@
 //create an array
-const ktm {
+const ktm = {
     id: 'ktm',
     name: 'ktm',
     image: 'ktm.jpeg',
@@ -9,7 +9,7 @@ const ktm {
 
 };
 
-const yamaha {
+const yamaha = {
     id: 'yamaha',
     name: 'yamaha',
     image: 'yamaha.jpeg',
@@ -19,7 +19,7 @@ const yamaha {
 
 };
 
-const honda {
+const honda = {
     id: 'honda',
     name: 'honda',
     image: 'honda.jpeg',
@@ -29,7 +29,7 @@ const honda {
 
 };
 
-const suzuki {
+const suzuki = {
     id: 'suzuki',
     name: 'suzuki',
     image: 'suzuki.jpeg',
@@ -39,7 +39,7 @@ const suzuki {
 
 };
 
-const kawasaki {
+const kawasaki = {
     id: 'kawasaki',
     name: 'kawasaki',
     image: 'kawasaki.jpeg',
@@ -48,11 +48,11 @@ const kawasaki {
     price: 9600
 
 };
-const dirtbikes = [
+export const dirtbikes = [
     ktm,
     yamaha,
     honda,
     suzuki,
     kawasaki
 ]
-export default dirtbikes
+
